@@ -30,7 +30,7 @@
 #define ATCA_STATUS_H
 
 #include <stdint.h>
-#include "atca_config.h"
+#include "atca_config.h.in"
 #include "atca_compiler.h"
 #include <stdint.h>
 

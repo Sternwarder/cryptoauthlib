@@ -43,7 +43,7 @@ extern "C" {
 #include <stdint.h>
 #include <stddef.h>
 
-#include "atca_config.h"
+#include "atca_config.h.in"
 #include "atca_devtypes.h"
 #include "atca_status.h"
 

@@ -306,7 +306,7 @@ if(BUILD_TESTS)
 set(ATCA_TESTS_ENABLED ON CACHE INTERNAL "")
 endif(BUILD_TESTS)
 
-configure_file(atca_config.h.in atca_config.h @ONLY)
+configure_file(atca_config.h.in atca_config.h.in @ONLY)
 set(LIB_INC ${LIB_INC} ${CMAKE_CURRENT_BINARY_DIR}/atca_config.h)
 
 include_directories(cryptoauth PUBLIC ${CMAKE_CURRENT_BINARY_DIR} 
